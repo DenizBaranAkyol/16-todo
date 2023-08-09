@@ -5,6 +5,7 @@
     <AddSection @add-todo="addNewTodo" />
     <TodoList @delete-todo-item="deleteItem" :myData=" todoList " />
     <ResultBar :itemCount="todoList.length" />
+    <button class="red sm">deneme</button>
   </div>
 </template>
 
@@ -32,7 +33,7 @@ export default {
         { id: 5, text: "Bootcamp #2.4" },
         { id: 6, text: "Bootcamp #2.5" }
       ];
-    }, 2000);
+    }, 100);
  
   
 
